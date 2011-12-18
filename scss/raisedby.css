@@ -1,0 +1,77 @@
+/* variables.scss
+ * Variables and mixins to pre-ignite any new web development project
+ * ------------------------------------------------------------------ */
+/* Mixins.scss
+ * Snippets of reusable CSS to develop faster and keep code readable
+ * ----------------------------------------------------------------- */
+.clearfix {
+  zoom: 1;
+}
+.clearfix:before, .clearfix:after {
+  display: table;
+  content: "";
+  zoom: 1;
+}
+.clearfix:after {
+  clear: both;
+}
+
+.fixed-container {
+  width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+  zoom: 1;
+}
+.fixed-container:before, .fixed-container:after {
+  display: table;
+  content: "";
+  zoom: 1;
+}
+.fixed-container:after {
+  clear: both;
+}
+
+body {
+  background: #90b0af;
+}
+
+#get_involved p {
+  font-size: 25px;
+  line-height: 38px;
+  color: white;
+  text-shadow: #22978b 0 1px 0;
+}
+
+#math {
+  background: #f4f3e9;
+  text-align: center;
+  padding: 30px 0;
+}
+#math h2 {
+  margin-bottom: 20px;
+}
+#math #the-equation {
+  margin-bottom: 20px;
+}
+#math p {
+  font-size: 36px;
+  font-weight: bold;
+  color: #ec4300;
+  line-height: 50px;
+}
+#math .value {
+  font-family: 'LeagueGothicRegular', Arial, sans-serif;
+  font-size: 36px;
+  font-weight: normal;
+  background: #223b40;
+  color: white;
+  padding: 4px 13px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+}
+#math small {
+  font-weight: bold;
+  font-size: 13px;
+  color: #223b40;
+}

@@ -8,7 +8,8 @@
 
 // Topbar for Branding and Nav
 .topbar {
-  height: 40px;
+	font-family: 'LeagueGothicRegular', Arial, sans-serif;
+  height: 68px;
 	margin-bottom: 30px;
   top: 0;
   left: 0;
@@ -28,8 +29,8 @@
   h3 a:hover,
   .brand:hover,
   ul .active > a {
-    background-color: #333;
-    background-color: rgba(255,255,255,.05);
+    // background-color: #333;
+    // background-color: rgba(255,255,255,.05);
     color: $white;
     text-decoration: none;
   }
@@ -41,14 +42,16 @@
   }
   h3 a,
   .brand {
+    font-size: 53px;
 		color: $orange;
     float: left;
     display: block;
     padding: 8px 20px 12px;
     margin-left: -20px; // negative indent to left-align the text down the page
-    font-size: 20px;
+
     font-weight: 200;
     line-height: 1;
+		text-transform: uppercase;
   }
 
   // Plain text in topbar
@@ -130,7 +133,8 @@
 // ul.nav for all topbar based navigation to avoid inheritance issues and over-specificity
 // For backwards compatibility, leave in .topbar div > ul
 .topbar div > ul,
-.nav {
+.nav,
+footer > ul {
   display: block;
   float: left;
   margin: 0 10px 0 0;
@@ -145,12 +149,13 @@
   }
   a {
 		color: $blueLight;
+		font-size: 23px;
     display: block;
     float: none;
     padding: 10px 10px 11px;
     line-height: 19px;
     text-decoration: none;
-		text-transform: capitalize;
+		text-transform: uppercase;
     &:hover {
       color: $white;
       text-decoration: none;
@@ -494,9 +499,16 @@ a.menu:after,
   }
 }
 footer {
+	font-family: 'LeagueGothicRegular', Arial, sans-serif;
   margin-top: $baseline - 1;
   padding-top: $baseline - 1;
   border-top: 1px solid #eee;
+	background: $blueDark;
+	text-align: center;
+	
+	ul {
+		float: none;
+	}
 }
 
 // PAGE HEADERS

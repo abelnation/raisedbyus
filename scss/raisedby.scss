@@ -1,0 +1,52 @@
+
+@import "_variables.scss";
+@import "_mixins.scss";
+
+body { background: $blueLight; }
+
+#get_involved {
+	p {
+		font-size: 25px;
+		line-height: 38px;
+		color: $white;
+		text-shadow: $turquoise 0 1px 0;
+	}
+}
+
+#math {
+	
+	background: $offWhite;
+	text-align: center;
+	padding: 30px 0;
+	
+	h2 {
+		margin-bottom: 20px;
+	}
+	
+	#the-equation {
+		margin-bottom: 20px;
+	}
+	
+	p {
+		font-size: 36px;
+		font-weight: bold;
+		color: $orange;
+		line-height: 50px;
+	}
+	
+	.value {
+		font-family: 'LeagueGothicRegular', Arial, sans-serif;
+		font-size: 36px;
+		font-weight: normal;
+		background: $blueDark;
+		color: white;
+		padding: 4px 13px;
+		@include border-radius(8px);
+	}
+	
+	small {
+		font-weight: bold;
+		font-size: 13px;
+		color: $blueDark;
+	}
+}
