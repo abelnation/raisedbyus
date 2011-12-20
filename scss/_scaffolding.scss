@@ -11,7 +11,7 @@ body {
   background-color: $white;
   margin: 0;
   @include sans-serif-font(normal,$basefont,$baseline);
-  color: $grayDark;
+  color: $black;
 }
 
 // Container (centered, fixed-width layouts)

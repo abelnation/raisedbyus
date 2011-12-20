@@ -137,20 +137,21 @@
 .nav,
 footer > ul {
   display: block;
-  float: left;
-  margin: 0 10px 0 0;
+  float: right;
+  margin: 12px 0 0 0;
   position: relative;
   left: 0;
 	
 
   > li {
     display: block;
-    float: left;
+    float: right;
 		
   }
-  a {
-		color: $blueLight;
-		font-size: 23px;
+  a {	
+	color: $blueLight;
+	text-shadow: 0 1px 1px #000;
+	font-size: 23px;
     display: block;
     float: none;
     padding: 10px 10px 11px;

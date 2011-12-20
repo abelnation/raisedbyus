@@ -1,0 +1,10 @@
+.git
+.sass-cache
+_archive
+_mocks
+_powerpoint
+bootstrap-sass
+watch_files
+push_to_gm
+exclude.rsync
+*.swp
