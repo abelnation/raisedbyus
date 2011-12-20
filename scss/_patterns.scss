@@ -119,10 +119,11 @@
 // For backwards compatibility, include .topbar .fill
 .topbar-inner,
 .topbar .fill {
-  background-color: $blueDark;
+  // background-color: $blueDark;
+  background: url('../img/bg_topbar.png') repeat-x transparent;
   // @include vertical-gradient(#333, #222);
-  $shadow: 0 1px 3px rgba(0,0,0,.25), inset 0 -1px 0 rgba(0,0,0,.1);
-  @include box-shadow($shadow);
+  // $shadow: 0 1px 3px rgba(0,0,0,.25), inset 0 -1px 0 rgba(0,0,0,.1);
+  // @include box-shadow($shadow);
 }
 
 
@@ -499,15 +500,35 @@ a.menu:after,
   }
 }
 footer {
+
+	height: 255px;
+	background: url('../img/bg_footer.png') repeat-x transparent;
 	font-family: 'LeagueGothicRegular', Arial, sans-serif;
-  margin-top: $baseline - 1;
-  padding-top: $baseline - 1;
-  border-top: 1px solid #eee;
-	background: $blueDark;
+	margin-top: $baseline - 1;
+	padding-top: $baseline - 1;
+	border-top: 1px solid #eee;
+	// background: $blueDark;
 	text-align: center;
-	
+
 	ul {
 		float: none;
+		margin: auto;
+		li { 
+			float: none; 
+			display: inline-block; 
+			font-weight: 500;
+		}
+	}
+
+	#parent-company {
+		 margin-top: 50px;
+
+		 h4 {
+			font-family: 'Helvetica Neue', Helvetica, sans-serif;
+			font-size: 22px;
+			color: $orange;
+			text-shadow: 0 1px 1px #000;
+		 }
 	}
 }
 
@@ -518,6 +539,7 @@ footer {
   margin-bottom: $baseline - 1;
   border-bottom: 1px solid #ddd;
   @include box-shadow(0 1px 0 rgba(255,255,255,.5));
+
   h1 {
     margin-bottom: ($baseline / 2) - 1px;
   }

@@ -1570,10 +1570,7 @@ table .headerSortDown.purple {
 
 .topbar-inner,
 .topbar .fill {
-  background-color: #223b40;
-  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+  background: url("../img/bg_topbar.png") repeat-x transparent;
 }
 
 .topbar div > ul,
@@ -2019,15 +2016,31 @@ a.menu:after,
 }
 
 footer {
+  height: 255px;
+  background: url("../img/bg_footer.png") repeat-x transparent;
   font-family: 'LeagueGothicRegular', Arial, sans-serif;
   margin-top: 17px;
   padding-top: 17px;
   border-top: 1px solid #eee;
-  background: #223b40;
   text-align: center;
 }
 footer ul {
   float: none;
+  margin: auto;
+}
+footer ul li {
+  float: none;
+  display: inline-block;
+  font-weight: 500;
+}
+footer #parent-company {
+  margin-top: 50px;
+}
+footer #parent-company h4 {
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 22px;
+  color: #ec4300;
+  text-shadow: 0 1px 1px #000;
 }
 
 .page-header {

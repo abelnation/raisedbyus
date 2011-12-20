@@ -4,10 +4,16 @@
 
 body { background: $blueLight; }
 
+section { margin-bottom: 30px; }
+
 #get_involved {
+
+	margin-bottom: 26px;
+
 	p {
 		font-size: 25px;
-		line-height: 38px;
+		font-weight: 500;
+		line-height: 37px;
 		color: $white;
 		text-shadow: $turquoise 0 1px 0;
 	}
@@ -15,9 +21,11 @@ body { background: $blueLight; }
 
 #math {
 	
-	background: $offWhite;
+	background: url('../img/bg_equation.png') repeat-x transparent;
+	height: 175px;
 	text-align: center;
-	padding: 30px 0;
+	padding: 30px 0 0 0;
+	margin-bottom: 0px;
 	
 	h2 {
 		margin-bottom: 20px;
@@ -50,3 +58,22 @@ body { background: $blueLight; }
 		color: $blueDark;
 	}
 }
+
+#founding_partners {
+	padding-top: 20px;
+	background: url('../img/bg_foundingpartners.png');
+	height: 218px;
+}
+
+#causes {
+	border-top: thin solid #6F9E9B;
+	border-bottom: thin solid #6F9E9B;
+	padding: 20px 0;
+}
+
+#partner-logos, #donor-logos {
+	text-align: center;
+	img { margin: 0 30px; }
+}
+
+
