@@ -2,12 +2,11 @@
 @import "_variables.scss";
 @import "_mixins.scss";
 
-body { background: $blueLight; }
+body { background: $blueLightest; }
 
 section { margin-bottom: 30px; }
 
 #get_involved {
-
 	margin-bottom: 26px;
 
 	p {
@@ -20,7 +19,6 @@ section { margin-bottom: 30px; }
 }
 
 #math {
-	
 	background: url('../img/bg_equation.png') repeat-x transparent;
 	height: 175px;
 	text-align: center;
@@ -66,9 +64,18 @@ section { margin-bottom: 30px; }
 }
 
 #causes {
-	border-top: thin solid #6F9E9B;
-	border-bottom: thin solid #6F9E9B;
+	border-top: thin solid $blueLight;
+	border-bottom: thin solid $blueLight;
 	padding: 20px 0;
+
+	#see-all-causes {
+		color: $blueDarkest;
+		display: inline-block;
+		background-color: $blueLight;
+		@include border-radius(3px);
+		padding: 4px 6px;
+		float: right;
+	}
 }
 
 #partner-logos, #donor-logos {

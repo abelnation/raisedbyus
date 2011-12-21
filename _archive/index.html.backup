@@ -3,14 +3,17 @@
 	<head>
 		<!-- TODO: short tagline for title -->
 		<title>RaisedBy.Us | Workplace Giving or Techies</title>
-
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+		<meta name="description" content="A workplace giving  program for techies that allows employees to give a little bit of their paycheck to the charity of their choice." />
+		
 		<!-- CSS -->
-		<link rel="stylesheet" href="css/base.css" type="text/css" media="screen" title="no title" charset="utf-8">
-		<link rel="stylesheet" href="css/raisedby.css" type="text/css" media="screen" title="no title" charset="utf-8">
+		<link rel="stylesheet" href="css/base.css" type="text/css" media="screen" title="no title">
+		<link rel="stylesheet" href="css/raisedby.css" type="text/css" media="screen" title="no title">
 
 	</head>
 
 	<body>	
+
 
 		<!-- Topbar
 		================================================== -->
@@ -19,10 +22,10 @@
 				<div class="container">
 					<a class="brand" href="/">RaisedBy.Us</a>
 					<ul class="nav">
-						<li class="active"><a href="#get_involved">get involved</a></li>
-						<li><a href="/howitworks.html">how it works</a></li>
-						<li><a href="#causes">our causes</a></li>
 						<li><a href="/contact.html">contact us</a></li>
+						<li><a href="#get_involved">get involved</a></li>
+						<li><a href="#causes">our causes</a></li>
+						<li><a href="/howitworks.html">how it works</a></li>
 
 						<!-- TODO: tweet and fb like buttons -->
 					</ul>
@@ -107,6 +110,7 @@
 						<a href="" class="donor"><img src="img/causes_americanredcross.png" alt="american red cross" /></a>
 						<a href="" class="donor"><img src="img/causes_donorschoose.png" alt="donors choose" /></a>
 					</div>
+					<a id="see-all-causes" href="/causes.html">See All Causes</a>
 				</div>	
 			</div>
 			</section>
@@ -123,7 +127,7 @@
 				</div>
 				<div class="span8">
 					<h4>About Techies Give Back</h4>
-					<p>TechiesGiveBack mobilizes the NY Tech community to help others. Since we launched in December 2009, we’ve raised over $100,000 for causes across North America. We are currently developing new, scalable ideas for the tech community to give back. We focus on education, tech, and local NY-based charities.</p>
+					<p>TechiesGiveBack mobilizes the NY Tech community to help others. Since we launched in December 2009, we've raised over $100,000 for causes across North America. We are currently developing new, scalable ideas for the tech community to give back. We focus on education, tech, and local NY-based charities.</p>
 				</div>
 			</div>
 			</section>
@@ -154,6 +158,5 @@
 		</div>
 		</footer>
 
-	</div>
 </body>
 </html>

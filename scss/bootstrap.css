@@ -479,7 +479,7 @@ h1 small {
 
 h2 {
   font-family: 'LeagueGothicRegular', Arial, sans-serif;
-  color: #ec4300;
+  color: #e63600;
   font-size: 46px;
   line-height: 36px;
 }
@@ -618,7 +618,7 @@ code, pre {
 }
 
 code {
-  background-color: #ffcdb9;
+  background-color: #ffc5b3;
   color: rgba(0, 0, 0, 0.75);
   padding: 1px 3px;
 }
@@ -1449,12 +1449,12 @@ table .headerSortDown.yellow {
   background-color: #fff6d9;
 }
 table .orange {
-  color: #ec4300;
-  border-bottom-color: #ec4300;
+  color: #e63600;
+  border-bottom-color: #e63600;
 }
 table .headerSortUp.orange,
 table .headerSortDown.orange {
-  background-color: #ffcdb9;
+  background-color: #ffc5b3;
 }
 table .purple {
   color: #7a43b6;
@@ -1493,7 +1493,8 @@ table .headerSortDown.purple {
 .topbar h3 a,
 .topbar .brand {
   font-size: 53px;
-  color: #ec4300;
+  color: #e63600;
+  text-shadow: 0 1px 1px #223b40, 0 -1px 1px #ec4400;
   float: left;
   display: block;
   padding: 8px 20px 12px;
@@ -1591,7 +1592,7 @@ footer > ul > li {
 .topbar div > ul a,
 .nav a,
 footer > ul a {
-  color: #90b0af;
+  color: #729e9b;
   text-shadow: 0 1px 1px #000;
   font-size: 23px;
   display: block;
@@ -2040,7 +2041,7 @@ footer #parent-company {
 footer #parent-company h4 {
   font-family: 'Helvetica Neue', Helvetica, sans-serif;
   font-size: 22px;
-  color: #ec4300;
+  color: #e63600;
   text-shadow: 0 1px 1px #000;
 }
 
@@ -2689,7 +2690,7 @@ input[type=submit].btn::-moz-focus-inner {
   background-color: #c43c35;
 }
 .label.warning {
-  background-color: #ec4300;
+  background-color: #e63600;
 }
 .label.success {
   background-color: #46a546;

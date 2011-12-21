@@ -66,7 +66,7 @@ section {
 #math p {
   font-size: 36px;
   font-weight: bold;
-  color: #ec4300;
+  color: #e63600;
   line-height: 50px;
 }
 #math .value {
@@ -93,9 +93,19 @@ section {
 }
 
 #causes {
-  border-top: thin solid #6F9E9B;
-  border-bottom: thin solid #6F9E9B;
+  border-top: thin solid #729e9b;
+  border-bottom: thin solid #729e9b;
   padding: 20px 0;
+}
+#causes #see-all-causes {
+  color: #213b40;
+  display: inline-block;
+  background-color: #729e9b;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  padding: 4px 6px;
+  float: right;
 }
 
 #partner-logos, #donor-logos {
