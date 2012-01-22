@@ -7,6 +7,7 @@
 						<li><a href="/getinvolved.php">get involved</a></li>
 						<li><a href="/causes.php">our causes</a></li>
 						<li class="active"><a href="/howitworks.php">learn more</a></li>
+						<li><a href="/">about us</a></li>
 {/block}
 
 {block name="content"}
@@ -60,11 +61,11 @@
 						Workplace giving accounts for $4.8 billion given to charities in North America each year.
 					</div>
 					<div class="span-one-third">
-						<h4>The Big Boys Do It</h4>
+						<h4>It's Popular</h4>
 						Most large tech companies offer workplace giving as a benefit to employees. Everyone from Google to Oracle have programs in place.						
 					</div>
 					<div class="span-one-third">
-						<h4>Now You Can Too</h4>
+						<h4>Now It's For Everyone</h4>
 						RaisedBy.Us is bringing workplace giving to those of us that don't work at the Googles of the world but want to give.
 					</div>
 				</div>
@@ -78,20 +79,60 @@
 			<section id="infographic" class="toplayer-container featured">
 				<div class="container">
 					<h2>How it works</h2>
+					<!-- 
 					<div class="row">
 						<div class="span16">
-							<!-- TODO: How It Works Diagram -->
 							<div style="background: #ddd; height: 200px; width: 940px; margin-bottom: 20px;"></div>
+						</div>
+					</div>
+					-->
+					<!-- 
+					<div class="row">
+						<div class="span4">
+							<div class="stepnum">1</div>
+						</div>
+						<div class="span4">
+							<div class="stepnum">2</div>
+						</div>
+						<div class="span4">
+							<div class="stepnum">3</div>
+						</div>
+						<div class="span4">
+							<div class="stepnum">4</div>
+						</div>
+					</div>
+					-->
+					<div class="row">
+						<div class="span4">
+							<div class="stepnum">1</div>
+							<h4>Company Enrolls</h4>
+						</div>
+						<div class="span4">
+							<div class="stepnum">2</div>
+							<h4>Employees Choose</h4>
+						</div>
+						<div class="span4">
+							<div class="stepnum">3</div>
+							<h4>Contributions Deducted</h4>
+						</div>
+						<div class="span4">
+							<div class="stepnum">4</div>
+							<h4>Charities Benefit</h4>
 						</div>
 					</div>
 					<div class="row">
 						<div class="span4">
-							<h4>Company Enrolls</h4>
 							<p>Lauren works for AirSquareLy. After her company signed up, Lauren got an email saying that she could log in to RaisedBy.Us to donate.</p>
 						</div>
-						<div class="span4">Lauren logs in and chooses the charities she would like to donate to, and how much she  would like to give. 100% of her pledged amount goes to the charities she chooses.</div>
-						<div class="span4">Bill manages AirSquareLy’s payroll. He receives a file containing Lauren’s preferences, along with all the other employees. He creates a deduction in her paycheck, like he would a 401k.</div>
-						<div class="span4">Each pay-cycle Bill sends the aggregate witheld amount to RaisedBy.Us. We send the donations to all the chosen charities.</div>
+						<div class="span4">
+							<p>Lauren logs in and chooses the charities she would like to donate to, and how much she  would like to give. 100% of her pledged amount goes to the charities she chooses.</p>
+						</div>
+						<div class="span4">
+							<p>Bill manages AirSquareLy’s payroll. He receives a file containing Lauren’s preferences, along with all the other employees. He creates a deduction in her paycheck, like he would a 401k.</p>
+						</div>
+						<div class="span4">
+							<p>Each pay-cycle Bill sends the aggregate witheld amount to RaisedBy.Us. We route the donations to all the chosen charities.</p>
+						</div>
 					</div>
 					<!-- 
 					<div class="row">
@@ -141,14 +182,14 @@
 					<div class="row">
 						<div class="span-one-third">
 							<h4>Exposure</h4>
-							We’re good at getting press. Consider it a cost-efficient way to bask in the sunlight of great coverage.
+							We’re <a href="http://techiesgiveback.org/press">good at getting press</a> for our partners. Consider it a cost-efficient way to bask in the sunlight of great coverage.
 						</div>
 						<div class="span-one-third">
 							<h4>Employee Events</h4>
 							Your employees will get invited to go to awesome events we’ll arrange just for them. Great speakers? Check. Fun times? Check.
 						</div>
 						<div class="span-one-third">
-							<h4>Culture Impact</h4>
+							<h4>Company Culture</h4>
 							Hiring is hard. Want to show future employees you care more than the next company? Want to show existing employees they should stay with you. What better way?
 						</div>
 					</div>
@@ -211,15 +252,8 @@
 						</div>
 					
 						<div class="span8">
-							<!-- 
-							<h3>Want to get involved?</h3>
-							<ul>
-								<li>What are you waiting for?</li>
-								<li>Willing to have your payroll spend 30 minutes a month ?</li>
-								<li>Get involved!</li>
-							</ul>
-							-->
-							<h3>Frequently Asked Questions</h3>
+							
+							<!-- <h3>Frequently Asked Questions</h3> -->
 							
 						</div>
 						

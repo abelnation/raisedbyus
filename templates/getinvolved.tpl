@@ -25,6 +25,7 @@
 						<li class="active"><a href="/getinvolved.php">get involved</a></li>
 						<li><a href="/causes.php">our causes</a></li>
 						<li><a href="/howitworks.php">learn more</a></li>
+						<li><a href="/">about us</a></li>
 {/block}
 
 {block name="content"}

@@ -14,6 +14,7 @@
 						<li><a href="/getinvolved.php">get involved</a></li>
 						<li><a href="/causes.php">our causes</a></li>
 						<li><a href="/howitworks.php">learn more</a></li>
+						<li class="active"><a href="/">about us</a></li>
 						{/block}
 
 						<!-- TODO: tweet and fb like buttons -->

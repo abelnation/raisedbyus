@@ -472,6 +472,13 @@ p small {
   color: #e1e1e1;
 }
 
+a {
+  color: #9d261d;
+}
+a:hover {
+  color: #9d261d;
+}
+
 label.error {
   color: #9d261d;
 }
@@ -535,6 +542,9 @@ h3 {
   line-height: 20px;
   font-size: 18px;
 }
+.featured h3 {
+  color: #e63600;
+}
 h3 small {
   font-size: 14px;
 }
@@ -543,6 +553,10 @@ h4 {
   line-height: 20px;
   margin-bottom: 10px;
   font-size: 16px;
+}
+.featured h4 {
+  color: #e63600;
+  text-shadow: none;
 }
 h4 small {
   font-size: 12px;

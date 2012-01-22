@@ -7,6 +7,7 @@
 						<li><a href="/getinvolved.php">get involved</a></li>
 						<li class="active"><a href="/causes.php">our causes</a></li>
 						<li><a href="/howitworks.php">learn more</a></li>
+						<li><a href="/">about us</a></li>
 {/block}
 
 {block name="content"}
@@ -15,6 +16,7 @@
 			
 			<div class="row">
 				<div class="span16">
+					<h3>featured causes</h3>
 					<div id="featured-causes">
 							
 						<a href="http://charitywater.org" class="donor"><img src="img/causes_charitywater.png" alt="charity water" /></a>

@@ -12,10 +12,13 @@
 				<div class="span-two-thirds">
 
 					<!-- TODO: replace with actual video -->
-					<div style="height: 349px; width: 620px; background: black;"></div>
+					<div id="video_placeholder"> 
+						video coming soon!
+					</div>
 				</div>
 				<div class="span-one-third">
-					<p>A workplace giving  program for techies that allows employees to give a little bit of their paycheck to the cause of their choice.</p>
+					<!-- <p>A workplace giving  program for techies that allows employees to give a little bit of their paycheck to the cause of their choice.</p> -->
+					<p>A giving program for techies that allows employees to give a little bit of their paycheck to the cause of their choice.</p>
 					<a href="getinvolved.php"><img src="img/button_get_involved.png" alt="get involved" /></a>
 				</div>
 			</div>
@@ -42,7 +45,7 @@
 						<span class="value">$50,000 donated per year</span>
 						</p> -->
 					</div>
-					<small>(You can donate as much or as little as you like each month. We recommend 1%.)</small>
+					<small>(You can donate as much or as little as you like each month.)</small>
 				</div>
 			</div>
 		</div> <!-- End container -->
@@ -92,9 +95,16 @@
 				<div class="row" id="more_info">
 					<div class="span8">
 						<h4>Why Workplace Giving?</h4>
+
+						<p>TechiesGiveBack is committed to making the biggest possible impact on the largest number of causes. We also want to ensure that we create programs which allow folks in the tech community to give whatever they can afford. </p>
+						
+						<p>After doing our research, we found the answer in workplace giving: it's scalable, cost efficient, and allows techies to give as much or as little as they like. Workplace giving programs are commonplace among established tech organizations. We're just bringing those same benefits to our own tech community</p>
+						
+						<!-- 
 						<p>We wanted to find a way that everyone in tech - from product managers to CEOs - could give a little bit to charity each month. We wanted it to be easy and cost effective. We wanted people to be able to choose for themselves who to give to.</p>
 
 						<p>We found our answer in employee giving. Almost $5bn is donated to charity each year through workplace giving programs. It's commonplace among almost every large company. We thought: why shouldn't we provide that same opportunity to employees in the companies we're building?</p>
+						-->
 					</div>
 					<div class="span8">
 						<h4>About Techies Give Back</h4>

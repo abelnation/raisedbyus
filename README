@@ -4,3 +4,10 @@ Author: Abel Allison (abel.allison@gmail.com)
 Design: Abel Allison, Brannon McAllister, Simon Kirk
 = = = = = = = = = = = = = = = = = = = = = = = = = = =
 
+watch_files.sh
+Runs the sass executable to watch all scss files and recompile the css
+when a change is made.
+
+push_to_gm.sh
+Pushs all required files to groovemechanic via rsync.  Requires ssh keys
+to be setup.  
