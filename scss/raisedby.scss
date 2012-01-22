@@ -8,6 +8,11 @@ body {
 
 section { padding-bottom: 30px; }
 
+.share-button-container {
+	float: right;
+	margin-top: 20px;
+}
+
 #video_placeholder {
 	height: 349px;
 	width: 620px;
@@ -98,7 +103,7 @@ section { padding-bottom: 30px; }
 #founding_partners {
 	padding-top: 20px;
 	//background: url('../img/bg_foundingpartners.png');
-	height: 218px;
+	height: 240px;
 }
 
 #causes, #featured-causes {

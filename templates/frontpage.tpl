@@ -67,6 +67,8 @@
 							<a href="http://squarespace.com" class="partner"><img src="img/partners_squarespace.png" alt="squarespace" /></a>
 							<a href="http://hunch.com" class="partner"><img src="img/partners_hunch.png" alt="hunch" /></a>
 						</div>
+						<p style="margin-bottom: 20px; color: white; float: right;">
+							(Company logos displayed are for illustrative purposes only.)</p>
 					</div>
 				</div>
 			</div>

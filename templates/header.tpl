@@ -1,6 +1,5 @@
 	<head>
-		<!-- TODO: short tagline for title -->
-		<title>{block name="title"}RaisedBy.Us | Workplace Giving or Techies{/block}</title>
+		<title>{block name="title"}RaisedBy.Us | Workplace Giving for Techies{/block}</title>
 
 		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
 		<meta name="description" content="A workplace giving  program for techies that allows employees to give a little bit of their paycheck to the charity of their choice." />
