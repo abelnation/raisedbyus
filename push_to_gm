@@ -7,4 +7,4 @@
 # dest
 # delete files that have been removed
 # file specifying files to exclude
-rsync -avve ssh ../raisedbyus/ groovemechanic:~/raisedbyus.groovemechanic.net/ --delete --exclude-from 'exclude.rsync'
+rsync -avve ssh ../raisedbyus/ groovemechanic:~/raisedby.us/ --delete --exclude-from 'exclude.rsync'
