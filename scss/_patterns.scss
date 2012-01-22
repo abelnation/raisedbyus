@@ -18,6 +18,21 @@
 	// position: fixed;
 	// z-index: 10000;
 
+	.brand {
+		display:block; /* Required */
+		width:173px; /* Width of image in question */
+		height:42px; /* Height of image in question */
+		position:relative; /* Required */
+		top: 2px;
+		span {
+			position:absolute; /* Required */
+			width:100%; /* Stretch full width of parent */
+			height:100%; /* Stretch full height of parent */
+			background:url('../img/brand_raisedbyus_logo.png') top left no-repeat; /* Image */
+			cursor:pointer; /* Required for links to appear like links in IE */
+		}
+	}
+
 	// Links get text shadow
 	a {
 		color: $grayLight;
@@ -504,9 +519,9 @@ a.menu:after,
 footer {
 
 	height: 255px;
-	background: url('../img/bg_footer.png') repeat-x transparent;
+	background: url('../img/bg_footer.png') repeat transparent;
 	font-family: 'LeagueGothicRegular', Arial, sans-serif;
-	margin-top: $baseline - 1;
+	//margin-top: $baseline - 1;
 	padding-top: $baseline - 1;
 	border-top: 1px solid #eee;
 	// background: $blueDark;
@@ -594,7 +609,10 @@ footer {
 	padding: 5px 14px 6px;
 	text-shadow: 0 1px 1px rgba(255,255,255,.75);
 	color: #333;
-	font-size: $basefont;
+	font-size: 18px;
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	font-weight: bold;
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.10);
 	line-height: normal;
 	border: 1px solid #ccc;
 	border-bottom-color: #bbb;
@@ -616,7 +634,8 @@ footer {
 	// Primary Button Type
 	&.primary {
 		color: $white;
-		@include gradientBar($blue, $blueDark);
+		@include gradientBar(#EA3E00, #EC4400);
+		@include box-shadow(0 1px 1px rgba(0,0,0, .50));
 	}
 
 	// Transitions

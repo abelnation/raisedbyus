@@ -11,5 +11,6 @@
 		<link rel="stylesheet" href="css/raisedby.css" type="text/css" media="screen" title="no title">
 		{/block}
 		{block name="css"}{/block}
+		{block name="js"}{/block}
 
 	</head>

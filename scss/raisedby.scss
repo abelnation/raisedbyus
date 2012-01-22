@@ -2,24 +2,50 @@
 @import "_variables.scss";
 @import "_mixins.scss";
 
-body { background: $blueLightest; }
+body { 
+	background: url('../img/bg_body_dark.png') repeat $blueLightest; 
+}
 
-section { margin-bottom: 30px; }
+section { padding-bottom: 30px; }
 
 #get_involved {
-	margin-bottom: 26px;
+	//margin-bottom: 26px;
 
 	p {
 		font-size: 25px;
 		font-weight: 500;
 		line-height: 37px;
 		color: $white;
-		text-shadow: $turquoise 0 1px 0;
+		text-shadow: $blueDark 0 1px 0;
+	}
+}
+
+.featured-container {
+	background: url('../img/bg_form.png') repeat transparent;
+	@include box-shadow(#{"0 2px 4px 0px rgba(0,0,0,0.25), 0 -2px 4px 0px rgba(0,0,0,0.25)"});
+	
+	h1,h2,h3,h4,h5,h6 { 
+		color: $orange; 
+		text-shadow: none;
+	}	
+}
+
+.toplayer-container {
+	background: url('../img/bg_body.png') repeat transparent;
+	@include box-shadow(#{"0 2px 4px 0px rgba(0,0,0,0.25), 0 -2px 4px 0px rgba(0,0,0,0.25)"});
+	
+	padding-top: 20px;
+	
+	&.featured {
+		background: url('../img/bg_form.png') repeat transparent;
+		margin: 20px 0;
+		padding: 30px 0;
+		h3 { font-size: 28px; }
 	}
 }
 
 #math {
-	background: url('../img/bg_equation.png') repeat-x transparent;
+	// background: url('../img/bg_equation.png') repeat-x transparent;
 	height: 175px;
 	text-align: center;
 	padding: 30px 0 0 0;
@@ -59,13 +85,14 @@ section { margin-bottom: 30px; }
 
 #founding_partners {
 	padding-top: 20px;
-	background: url('../img/bg_foundingpartners.png');
+	//background: url('../img/bg_foundingpartners.png');
 	height: 218px;
 }
 
-#causes {
+#causes, #featured-causes {
 	border-top: thin solid $blueLight;
 	border-bottom: thin solid $blueLight;
+	margin: 20px 0;
 	padding: 20px 0;
 
 	#see-all-causes {
@@ -78,9 +105,111 @@ section { margin-bottom: 30px; }
 	}
 }
 
-#partner-logos, #donor-logos {
+#featured-causes { margin-bottom: 36px; }
+
+#partner-logos, #donor-logos, #featured-causes {
 	text-align: center;
-	img { margin: 0 30px; }
+	img { margin: 0 30px 20px 30px; }
 }
 
+#get-involved-card, .form-card {
+	background: url('../img/bg_form.png') repeat #f7f6eb;
+	@include border-radius(5px);
+	padding: 20px;
+	@include box-shadow(0 1px 3px rgba(0,0,0,0.25));
+	margin-bottom: 100px;
 
+	h2 { 
+		font-size: 30px; 
+		color: $orange;
+		text-transform: none;
+		text-shadow: 0 1px 1px $white;
+	}
+	h4 { 
+		font-family: 'LeagueGothicRegular', Arial, sans-serif;
+		text-shadow: 0 1px 1px $white;
+		color: $grayDark;
+		line-height: 26px;
+		font-size: 24px;
+		margin-bottom: 10px;
+	}
+
+	#contact-info {
+		font-family: 'Helvetica Neue', Helvetica, sans-serif;
+		color: $grayDark;
+	}
+
+	.submit {
+		background: url('../img/button_submit.png') no-repeat transparent;
+		border: none;
+		width: 152px;
+		height: 57px;
+	}
+}
+
+.cause {
+	height: 90px;
+	margin-bottom: 18px;
+
+	a > h3 { text-decoration: none; }
+	h3 { line-height: 18px; }
+	.cause-description { margin-bottom: 18px; }
+
+}
+
+.summary-amountdonated { 
+	width: 197px;
+	height: 137px;
+	background: url('../img/summary_amountdonated.png') no-repeat transparent; 
+}
+.summary-everyonesdoingit {
+	width: 300px;
+	height: 150px;
+	background: url('../img/summary_whodoesit.png') no-repeat transparent; 
+}
+.summary-givingforeveryone {
+	width: 300px;
+	height: 150px;
+	background: url('../img/summary_givingforeveryone.png') no-repeat transparent;
+}
+
+#why-give { 
+	padding: 20px 0;
+	border-bottom: thin solid $blueLightest;
+	border-top: thin solid $blueLightest;
+	margin-bottom: 50px;
+}
+
+.whygive {
+	color: $white;
+}
+.whygive-big {
+	font-family: 'LeagueGothicRegular', Arial, sans-serif;
+	font-weight: 400;
+	font-size: 72px;
+	line-height: 60px;
+}
+.whygive-small {
+	font-family: 'Helvetica Neue', Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 23px;
+	line-height: 30px;
+}
+
+.howitworks-inittogether { 
+	width: 750px;
+	height: 150px;
+	margin-top: 20px;
+	background: url('../img/howitworks_inittogether.png') no-repeat transparent; 
+}
+
+.benefits-icon {
+	width: 124px;
+	height: 127px;
+	margin-bottom: 20px;
+}
+.benefits-pr { background: url('../img/benefits-01.png') no-repeat transparent; }
+.benefits-events { background: url('../img/benefits-02.png') no-repeat transparent; }
+.benefits-culturehiring { background: url('../img/benefits-03.png') no-repeat transparent; }
+
+#get-involved .form-card { width: 420px; }

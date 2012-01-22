@@ -16,6 +16,16 @@
   clear: both;
 }
 
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center-text {
+  text-align: center;
+}
+
 .fixed-container {
   width: 940px;
   margin-left: auto;
@@ -32,26 +42,49 @@
 }
 
 body {
-  background: #90b0af;
+  background: url("../img/bg_body_dark.png") repeat #90b0af;
 }
 
 section {
-  margin-bottom: 30px;
+  padding-bottom: 30px;
 }
 
-#get_involved {
-  margin-bottom: 26px;
-}
 #get_involved p {
   font-size: 25px;
   font-weight: 500;
   line-height: 37px;
   color: white;
-  text-shadow: #22978b 0 1px 0;
+  text-shadow: #223b40 0 1px 0;
+}
+
+.featured-container {
+  background: url("../img/bg_form.png") repeat transparent;
+  -webkit-box-shadow: 0 2px 4px 0px rgba(0,0,0,0.25), 0 -2px 4px 0px rgba(0,0,0,0.25);
+  -moz-box-shadow: 0 2px 4px 0px rgba(0,0,0,0.25), 0 -2px 4px 0px rgba(0,0,0,0.25);
+  box-shadow: 0 2px 4px 0px rgba(0,0,0,0.25), 0 -2px 4px 0px rgba(0,0,0,0.25);
+}
+.featured-container h1, .featured-container h2, .featured-container h3, .featured-container h4, .featured-container h5, .featured-container h6 {
+  color: #e63600;
+  text-shadow: none;
+}
+
+.toplayer-container {
+  background: url("../img/bg_body.png") repeat transparent;
+  -webkit-box-shadow: 0 2px 4px 0px rgba(0,0,0,0.25), 0 -2px 4px 0px rgba(0,0,0,0.25);
+  -moz-box-shadow: 0 2px 4px 0px rgba(0,0,0,0.25), 0 -2px 4px 0px rgba(0,0,0,0.25);
+  box-shadow: 0 2px 4px 0px rgba(0,0,0,0.25), 0 -2px 4px 0px rgba(0,0,0,0.25);
+  padding-top: 20px;
+}
+.toplayer-container.featured {
+  background: url("../img/bg_form.png") repeat transparent;
+  margin: 20px 0;
+  padding: 30px 0;
+}
+.toplayer-container.featured h3 {
+  font-size: 28px;
 }
 
 #math {
-  background: url("../img/bg_equation.png") repeat-x transparent;
   height: 175px;
   text-align: center;
   padding: 30px 0 0 0;
@@ -88,16 +121,16 @@ section {
 
 #founding_partners {
   padding-top: 20px;
-  background: url("../img/bg_foundingpartners.png");
   height: 218px;
 }
 
-#causes {
+#causes, #featured-causes {
   border-top: thin solid #729e9b;
   border-bottom: thin solid #729e9b;
+  margin: 20px 0;
   padding: 20px 0;
 }
-#causes #see-all-causes {
+#causes #see-all-causes, #featured-causes #see-all-causes {
   color: #213b40;
   display: inline-block;
   background-color: #729e9b;
@@ -108,9 +141,135 @@ section {
   float: right;
 }
 
-#partner-logos, #donor-logos {
+#featured-causes {
+  margin-bottom: 36px;
+}
+
+#partner-logos, #donor-logos, #featured-causes {
   text-align: center;
 }
-#partner-logos img, #donor-logos img {
-  margin: 0 30px;
+#partner-logos img, #donor-logos img, #featured-causes img {
+  margin: 0 30px 20px 30px;
+}
+
+#get-involved-card, .form-card {
+  background: url("../img/bg_form.png") repeat #f7f6eb;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  padding: 20px;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+  margin-bottom: 100px;
+}
+#get-involved-card h2, .form-card h2 {
+  font-size: 30px;
+  color: #e63600;
+  text-transform: none;
+  text-shadow: 0 1px 1px white;
+}
+#get-involved-card h4, .form-card h4 {
+  font-family: 'LeagueGothicRegular', Arial, sans-serif;
+  text-shadow: 0 1px 1px white;
+  color: #626262;
+  line-height: 26px;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+#get-involved-card #contact-info, .form-card #contact-info {
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  color: #626262;
+}
+#get-involved-card .submit, .form-card .submit {
+  background: url("../img/button_submit.png") no-repeat transparent;
+  border: none;
+  width: 152px;
+  height: 57px;
+}
+
+.cause {
+  height: 90px;
+  margin-bottom: 18px;
+}
+.cause a > h3 {
+  text-decoration: none;
+}
+.cause h3 {
+  line-height: 18px;
+}
+.cause .cause-description {
+  margin-bottom: 18px;
+}
+
+.summary-amountdonated {
+  width: 197px;
+  height: 137px;
+  background: url("../img/summary_amountdonated.png") no-repeat transparent;
+}
+
+.summary-everyonesdoingit {
+  width: 300px;
+  height: 150px;
+  background: url("../img/summary_whodoesit.png") no-repeat transparent;
+}
+
+.summary-givingforeveryone {
+  width: 300px;
+  height: 150px;
+  background: url("../img/summary_givingforeveryone.png") no-repeat transparent;
+}
+
+#why-give {
+  padding: 20px 0;
+  border-bottom: thin solid #90b0af;
+  border-top: thin solid #90b0af;
+  margin-bottom: 50px;
+}
+
+.whygive {
+  color: white;
+}
+
+.whygive-big {
+  font-family: 'LeagueGothicRegular', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 60px;
+}
+
+.whygive-small {
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 23px;
+  line-height: 30px;
+}
+
+.howitworks-inittogether {
+  width: 750px;
+  height: 150px;
+  margin-top: 20px;
+  background: url("../img/howitworks_inittogether.png") no-repeat transparent;
+}
+
+.benefits-icon {
+  width: 124px;
+  height: 127px;
+  margin-bottom: 20px;
+}
+
+.benefits-pr {
+  background: url("../img/benefits-01.png") no-repeat transparent;
+}
+
+.benefits-events {
+  background: url("../img/benefits-02.png") no-repeat transparent;
+}
+
+.benefits-culturehiring {
+  background: url("../img/benefits-03.png") no-repeat transparent;
+}
+
+#get-involved .form-card {
+  width: 420px;
 }

@@ -17,12 +17,14 @@
 	font-style: normal;
 }
 
+.center-text { text-align: center; }
 
 // BODY TEXT
 // ---------
 
 p {
 	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	font-weight: bold;
 	@include shorthand-font(normal,$basefont,$baseline);
 	margin-bottom: $baseline / 2;
 	small {
@@ -31,33 +33,54 @@ p {
 	}
 }
 
+label.error {
+	color: $red;
+}
+input.error {
+	border: thin solid $red;
+}
 
 // HEADINGS
 // --------
 
+a.cause-name {
+	text-decoration: none;
+}
+
 h1, h2, h3, h4, h5, h6 {
 	font-weight: bold;
-	color: $grayDark;
+	color: $white;
+	text-shadow: $blueDark 0 1px 0;
 	small {
 		color: $grayLight;
 	}
 }
 h1, h2, h3 {
 	text-transform: uppercase;
+	
 }
 h1 {
+	font-family: 'LeagueGothicRegular', Arial, sans-serif;
+	font-weight: 400;
 	margin-bottom: $baseline;
-	font-size: 30px;
-	line-height: $baseline * 2;
+	font-size: 48px;
+	line-height: 60px;
 	small {
 		font-size: 18px;
 	}
 }
 h2 {
 	font-family: 'LeagueGothicRegular', Arial, sans-serif;
-	color: $orange;
-	font-size: 46px;
+	font-weight: 400;
+	font-size: 36px;
 	line-height: $baseline * 2;
+	margin-bottom: $baseline;
+	.featured & {
+		color: $orange;
+		font-size: 46px;
+		//text-shadow: $black 0 1px 0;
+		text-shadow: none;
+	}
 	small {
 		font-size: 14px;
 	}
@@ -66,14 +89,18 @@ h3, h4, h5, h6 {
 	line-height: $baseline * 2;
 	color: $white;
 	text-shadow: $blueDark 0 1px 0;
+	margin-bottom: 20px;
 }
 h3 {
+	line-height: 20px;
 	font-size: 18px;
 	small {
 		font-size: 14px;
 	}
 }
 h4 {
+	line-height: 20px;
+	margin-bottom: 10px;
 	font-size: 16px;
 	small {
 		font-size: 12px;
@@ -87,7 +114,11 @@ h6 {
 	color: $grayLight;
 	text-transform: uppercase;
 }
-
+legend {
+	font-family: 'LeagueGothicRegular', Arial, sans-serif;
+	font-size: 30px;
+	color: $orange;
+}
 
 // COLORS
 // ------
@@ -110,7 +141,7 @@ ol {
 }
 li {
 	line-height: $baseline;
-	color: $gray;
+	color: $black;
 }
 ul.unstyled {
 	list-style: none;
@@ -139,6 +170,7 @@ hr {
 	margin: 20px 0 19px;
 	border: 0;
 	border-bottom: 1px solid #eee;
+	border-color: $blueLightest;
 }
 
 // Emphasis

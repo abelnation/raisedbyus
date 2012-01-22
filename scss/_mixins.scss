@@ -23,6 +23,8 @@
   margin-left: auto;
   margin-right: auto;
 }
+.center-block { @include center-block; }
+.center-text { text-align: center; }
 
 // Sizing shortcuts
 @mixin size($height: 5px, $width: 5px) {

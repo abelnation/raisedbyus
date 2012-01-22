@@ -7,6 +7,7 @@ $orange:						#E63600;
 $orangeLight:				#ec4400;
 $blueDarkest:				#213B40;
 $blueDark:					#223B40;
+$featuredBlue:			#22978b;
 $blueLight:					#729e9b;
 $blueLightest:			#90B0AF;
 $turquoise:					#22978b;
@@ -18,7 +19,7 @@ $linkColor:         #0069d6;
 $linkColorHover:    darken($linkColor, 15);
 
 // Grays
-$black:             #000;
+$black:             #222;
 $grayDark:          lighten($black, 25%);
 $gray:              lighten($black, 50%);
 $grayLight:         lighten($black, 75%);

@@ -1,10 +1,10 @@
 		<footer>
 		<ul>
 			{block name="footer_links"}
-			<li><a href="/howitworks.html">how it works</a></li>
-			<li><a href="/index.html#causes">our causes</a></li>
-			<li><a href="/getinvolved.html">get involved</a></li>
-			<li><a href="/contact.html">contact us</a></li>
+			<li><a href="/howitworks.php"l>learn more</a></li>
+			<li><a href="/causes.php">our causes</a></li>
+			<li><a href="/getinvolved.php">get involved</a></li>
+			<!-- <li><a href="/contact.php">contact us</a></li> -->
 			<li><a href="">spread the word</a></li>
 			{/block}
 		</ul>
