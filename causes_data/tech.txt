@@ -1,0 +1,6 @@
+Tech	tech	
+CampInteractive	http://campinteractive.org/	CampInteractive (CI) introduces the creative power of technology and the inspiration of the outdoors to underprivileged inner-city youth. Our vision is to use positive experiences to broaden horizons and empower young people to believe in themselves and their futures.
+DonorsChoose	http://www.donorschoose.org/	DonorsChoose.org is an online charity that makes it easy for anyone to help students in need.
+ECHO	www.echonet.org	ECHO fights world hunger by using science and technology to develop agricultural solutions to aid farmers in developing countries.
+MOUSE	http://mouse.org/	 MOUSE is an innovative youth development organization that empowers underserved students to provide technology support and leadership in their schools, supporting their academic and career success. 
+ TechnoServe, Inc. 	http://www.technoserve.org/	 TechnoServe helps entrepreneurial men and women in poor areas of the developing world to build businesses that create income, opportunity and economic growth for their families, their communities and their countries.   

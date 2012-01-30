@@ -52,7 +52,7 @@ a.cause-name {
 	text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4 {
 	font-weight: bold;
 	color: $white;
 	text-shadow: $blueDark 0 1px 0;
@@ -74,7 +74,7 @@ h1 {
 		font-size: 18px;
 	}
 }
-h2 {
+h2, .h2 {
 	font-family: 'LeagueGothicRegular', Arial, sans-serif;
 	font-weight: 400;
 	font-size: 36px;

@@ -122,6 +122,37 @@ section { padding-bottom: 30px; }
 	}
 }
 
+a.backtotop-link {
+	color: white;
+	&:hover { color: white; }
+	float: right;
+	font-size: 13px;
+	font-weight: normal;
+}
+
+#cause-nav { 	
+	margin-bottom: 20px;
+}
+
+.extracause { 
+	display: none;
+	&.shown { display: table-row; }
+}
+
+.jumpbuttonlink {
+	display: block;
+	@include border-radius(5px);
+	@include vertical-gradient(#223B41, #1A2B2F);
+	color: $white;
+	padding: 10px;
+	margin: 10px 0;
+	width: 280px; 
+	font-size: 18px;
+	&:hover { 
+		color: $white;
+	}
+}
+
 #featured-causes { margin-bottom: 36px; }
 
 #partner-logos, #donor-logos, #featured-causes {
@@ -247,3 +278,25 @@ div.stepnum {
 	@include border-radius(25px);
 	@include box-shadow(inset 1px 1px 2px #AD2100);
 }
+
+table.cause-category {
+	margin: 40px 0;
+	background: url('/img/bg_form.png') repeat transparent;
+	border: none;
+	@include box-shadow(0 1px 3px rgba(0,0,0,0.25));
+	thead { 
+		@include vertical-gradient(#223B41, #1A2B2F);
+		color: $white;
+		padding: 10px;
+		font-size: 18px;
+		& > tr > th { padding: 10px; }
+		&:hover { 
+			color: $white;
+		}	
+	}
+
+	tr:nth-child(odd) td {
+		background: rgba(230, 54, 0, 0.1);
+	}
+}
+

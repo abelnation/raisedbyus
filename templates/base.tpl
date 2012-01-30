@@ -5,7 +5,7 @@
 {include file="header.tpl"}
 
 	<body>
-
+		<a name="top"></a>
 {include file="topbar.tpl"}
 
 		{block name="content"}{/block}

@@ -12,9 +12,11 @@
 				<div class="span-two-thirds">
 
 					<!-- TODO: replace with actual video -->
-					<div id="video_placeholder"> 
+					<!-- <div id="video_placeholder"> 
 						video coming soon!
-					</div>
+					</div> -->
+					<iframe src="http://player.vimeo.com/video/35572521?title=0&amp;byline=0&amp;portrait=0" width="620" height="349" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+					<!-- <p><a href="http://vimeo.com/35572521">Raisedby.us</a> from <a href="http://vimeo.com/user7681882">Simon Kirk</a> on <a href="http://vimeo.com">Vimeo</a>.</p> -->
 				</div>
 				<div class="span-one-third">
 					<!-- <p>A workplace giving  program for techies that allows employees to give a little bit of their paycheck to the cause of their choice.</p> -->
