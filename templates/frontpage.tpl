@@ -111,7 +111,7 @@
 						-->
 					</div>
 					<div class="span8">
-						<h4>Aboooooooooot Techies Give Back</h4>
+						<h4>Abooooooooooot Techies Give Back</h4>
 						<p>TechiesGiveBack mobilizes the NY Tech community to help others. Since we launched in December 2009, we've raised over $100,000 for causes across North America. We are currently developing new, scalable ideas for the tech community to give back. We focus on education, tech, and local NY-based charities.</p>
 					</div>
 				</div>
