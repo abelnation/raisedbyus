@@ -21,7 +21,6 @@
 				<div class="span-one-third">
 					<!-- <p>A workplace giving  program for techies that allows employees to give a little bit of their paycheck to the cause of their choice.</p> -->
 					<p>A giving program allowing techies to give a little bit of their paycheck to the cause of their choice.</p>
-
 					<a href="getinvolved.php"><img src="img/button_get_involved.png" alt="get involved" /></a>
 				</div>
 			</div>
